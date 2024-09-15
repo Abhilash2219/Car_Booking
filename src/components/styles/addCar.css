@@ -1,0 +1,100 @@
+/* Container for the Add Car form */
+.add-car-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Add Car form card styling */
+  .add-car-card {
+    background-color: #fff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form title styling */
+  .add-car-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the form fields */
+  .add-car-form input[type="text"],
+  .add-car-form input[type="number"],
+  .add-car-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Label styling */
+  .add-car-form label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Submit button styling */
+  .add-car-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  .add-car-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Form footer text and navigation link */
+  .add-car-footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .add-car-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .add-car-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error or validation message styling */
+  .add-car-error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  /* Responsive styling for mobile */
+  @media (max-width: 768px) {
+    .add-car-card {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  

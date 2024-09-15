@@ -1,0 +1,121 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  height: 80vh;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.home-header {
+margin-top: 5%;
+  text-align: center;
+  
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  color: #e22fe2;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  color: black;
+  margin: 5px 0;
+}
+
+.features-section {
+  text-align: center;
+  margin-top: 5%;
+  width: 100%;
+  overflow: hidden; /* Hide the horizontal scrollbar */
+}
+
+.features-section h2 {
+  font-size: 2rem;
+  color: #4b701a;
+  margin-bottom: 20px;
+}
+
+/* Scrollable container with hidden scrollbar */
+.scroll-container {
+  overflow: hidden; /* Hide the scrollbar */
+  white-space: nowrap; /* Prevent content wrapping */
+  width: 100%;
+  box-sizing: border-box;
+  
+  
+}
+
+.features-list {
+  display: inline-flex;
+  list-style: none;
+  padding: 10px 10px;
+  margin: 0;
+  gap: 20px; /* Adjust spacing between items */
+  white-space: nowrap; /* Keep items in a single line */
+}
+
+.features-list li {
+  min-width: 80px; /* Ensure items are not too large */
+  font-size: 1.1rem;
+  color: #555;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block; /* Ensure items are inline */
+}
+
+.features-list li strong {
+  color: #2c3e50;
+  margin-left: 5px;
+}
+
+.login-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 5px;
+}
+
+.login-btn {
+  background-color: #616d75;
+  color: white;
+  padding: 12px 25px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #2980b9;
+}
+
+@media screen and (max-width: 768px) {
+  .home-header h1 {
+    font-size: 2rem;
+  }
+
+  .home-header p {
+    font-size: 1rem;
+  }
+
+  .features-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .features-list li {
+    font-size: 1rem;
+  }
+
+  .login-btn {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}

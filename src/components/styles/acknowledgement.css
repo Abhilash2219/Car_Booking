@@ -1,0 +1,71 @@
+.acknowledgement-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-image: url('/public/images/lastpage.jpg'); /* Add your image path here */
+  background-size: cover; /* Cover the whole area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Avoid repeating the image */
+}
+
+h2 {
+  color: #1976d2;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.details-section {
+  margin-top: 20px;
+}
+
+.car-details, .owner-details {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.car-details h3, .owner-details h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.car-details p, .owner-details p {
+  font-size: 1em;
+  color: #666;
+}
+
+.car-details strong, .owner-details strong {
+  color: #000;
+}
+
+.owner-details p {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .acknowledgement-container {
+    padding: 15px;
+  }
+  
+  .car-details, .owner-details {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+
+  .details-section {
+    margin-top: 15px;
+  }
+}
