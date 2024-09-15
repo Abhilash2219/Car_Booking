@@ -25,4 +25,7 @@ Frontend:
 
 React.js
 HTML5 / CSS3
+
+
+contact for full resources abhilashbadiger0000@gmail.com
 JavaScript
